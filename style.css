@@ -1,0 +1,34 @@
+#main { 
+text-align: center;
+font-family: 'Roboto', sans-serif;
+background: #e0e1dd;
+background: #d0cfcf ;
+margin: 80px;
+padding: 100px;
+}
+#title {
+padding-top: 40px;
+padding-bottom: 30px
+}
+p {
+padding-bottom: 30px;
+}
+#image {
+  padding-bottom: 15px;
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+}
+#image:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+ul {
+text-align: center;
+display: inline-block;
+}
+ul li{
+line-height: 30px;
+line-height: 40px;
+text-align: justify;
+margin-left: 150px;
+margin-right: 150px;
