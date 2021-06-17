@@ -19,6 +19,7 @@ padding-bottom: 20px;
 border: 3rem solid whitesmoke;
 background: white;
 margin: 0 auto;
+min-width: 100%;
 }
 #image {
 filter: grayscale(100%);
@@ -40,8 +41,9 @@ width: 100%;
 ul li{
 margin: 0 auto;
 text-align: justify;
-width: 60%;
-line-height: 2.2rem;
+width: 90%;
+max-width: 800px;
+line-height: 2rem;
 }
 #tribute-link {
 font-size: 1.5em;
